@@ -427,12 +427,12 @@ contract Dalmatianinu is Context, IERC20, Ownable {
     address[] private _excluded;
    
     uint256 private constant MAX = ~uint256(0);
-    uint256 private constant _tTotal = 10000 * 10**6 * 10**9;
+    uint256 private constant _tTotal = 100000 * 10**6 * 10**9;
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = 'dalmatianinu';
-    string private _symbol = 'Dal';
+    string private _name = 'Dalmatianinu';
+    string private _symbol = 'Daln';
     uint8 private _decimals = 9;
 
     constructor () public {
